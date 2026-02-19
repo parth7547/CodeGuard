@@ -1,0 +1,32 @@
+Environments (CRITICAL: Private keys)
+
+.env
+.env.local
+.env.*.local
+
+Python / Backend (FastAPI)
+
+backend/venv/
+backend/.venv/
+backend/env/
+backend/pycache/
+backend/.py[cod]
+backend/$py.class
+
+Node / Frontend (React)
+
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/build/
+frontend/.npm
+frontend/*.log
+frontend/package-lock.json
+
+Editor / System
+
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp

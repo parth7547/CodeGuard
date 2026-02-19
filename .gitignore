@@ -21,6 +21,9 @@ frontend/dist-ssr/
 frontend/build/
 frontend/.npm
 frontend/*.log
+
+Note: Usually we keep package-lock.json, but if you want it ignored, keep the line below
+
 frontend/package-lock.json
 
 Editor / System

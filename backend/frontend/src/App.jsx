@@ -21,7 +21,7 @@ export default function App() {
    * This points directly to your live Render backend!
    */
   const getApiBase = () => {
-    const deployedUrl = "mongodb+srv://parthkhatu1045_db_user:sknKMLzXhpIKugPN@codegaurd.hoo7kj6.mongodb.net/?appName=CodeGaurd"; 
+    const deployedUrl = "https://codeguard-q1j2.onrender.com"; 
     
     if (typeof window !== 'undefined' && 
        (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1')) {

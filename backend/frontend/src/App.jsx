@@ -21,7 +21,7 @@ export default function App() {
    * This points directly to your live Render backend!
    */
   const getApiBase = () => {
-    const deployedUrl = "https://codeguard-backend-bubs.onrender.com"; 
+    const deployedUrl = ""; 
     
     if (typeof window !== 'undefined' && 
        (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1')) {
